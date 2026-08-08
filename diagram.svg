@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 787" font-family="Segoe Print, Bradley Hand, Comic Sans MS, cursive, sans-serif">
+<defs><filter id="sketch" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="3" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="3.5"/></filter></defs>
+<rect x="0" y="0" width="840" height="787" fill="#ffffff"/>
+<text x="420.0" y="38" font-size="26" text-anchor="middle" fill="#1e1e1e" font-weight="bold">HubSpot to BigQuery Attribution Flow</text>
+<g filter="url(#sketch)">
+<rect x="40.0" y="70" width="760" height="70" rx="22" ry="22" fill="#a5d8ff" stroke="#4a9eed" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="111.0" font-size="18" text-anchor="middle" fill="#1e1e1e">HubSpot contacts and deals</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="144" x2="420.0" y2="181" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,181 428.0,181 420.0,193" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="195" width="760" height="70" rx="22" ry="22" fill="#d0bfff" stroke="#8b5cf6" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="236.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Sync contacts into BigQuery on a schedule</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="269" x2="420.0" y2="306" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,306 428.0,306 420.0,318" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="320" width="760" height="94" rx="22" ry="22" fill="#c3fae8" stroke="#0891b2" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="361.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Enrich each record with campaign metadata</text>
+<text x="420.0" y="385.0" font-size="18" text-anchor="middle" fill="#1e1e1e">and source info</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="418" x2="420.0" y2="455" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,455 428.0,455 420.0,467" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="469" width="760" height="94" rx="22" ry="22" fill="#b2f2bb" stroke="#22c55e" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="510.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Push enriched attribution fields back to</text>
+<text x="420.0" y="534.0" font-size="18" text-anchor="middle" fill="#1e1e1e">HubSpot properties</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="567" x2="420.0" y2="604" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,604 428.0,604 420.0,616" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="618" width="760" height="94" rx="22" ry="22" fill="#ffd8a8" stroke="#f59e0b" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="659.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Result: sales sees exactly which campaign</text>
+<text x="420.0" y="683.0" font-size="18" text-anchor="middle" fill="#1e1e1e">sourced each deal</text>
+</svg>
