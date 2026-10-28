@@ -1,6 +1,6 @@
 # HubSpot to BigQuery Sales Attribution
 
-A two way sync between HubSpot and BigQuery that enriches every contact with campaign and source metadata, then pushes that enrichment back into HubSpot so sales reps see exactly which campaign sourced each deal without leaving their CRM. Built from the kind of sales attribution work I do at [motabar.builds.stuff](https://motabar.builds.stuff).
+A two way sync between HubSpot and BigQuery that enriches every contact with campaign and source metadata, then pushes that enrichment back into HubSpot so sales reps see exactly which campaign sourced each deal without leaving their CRM. Built from the kind of sales attribution work I do at [motabar.builds.stuff](https://motabarbuildstuff.com/).
 
 ## The problem this solves
 
@@ -35,3 +35,11 @@ The large majority of contacts should end up with a non-null `campaign_source` a
 ## Stack
 
 Python, HubSpot API, BigQuery, GA4, SQL
+
+## Related
+
+* Case study: [HubSpot + BigQuery Sales Attribution](https://motabarbuildstuff.com/case-studies/hubspot-bigquery-sales-attribution/)
+* Guide: [HubSpot shows Offline Sources for my contacts. Why, and how do I fix it?](https://motabarbuildstuff.com/blog/hubspot-offline-sources-fix/)
+* Service: [Marketing analytics consulting](https://motabarbuildstuff.com/marketing-analytics-consultant/)
+
+Built by [Motabar Javaid](https://motabarbuildstuff.com/about/), analytics engineer at [motabar.builds.stuff](https://motabarbuildstuff.com/).
